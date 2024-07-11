@@ -20,14 +20,13 @@ function Editor({handler,selectionHandler,value}) {
                       [{'color':[]},{'background':[]}],
                       ['blockquote', 'code-block'],
                       [{ 'header': 1 }, { 'header': 2 }],   
-                      [{ 'align': [] }],
-                      
+                      [{ 'align': [] }],                      
                     ]}}
+
                     value={value}
                     onChange={handler}
                     onChangeSelection={selectionHandler}
                     style={{height:'90%'}}
-                    
                 />
             </div>
           </div>
